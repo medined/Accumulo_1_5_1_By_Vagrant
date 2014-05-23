@@ -7,10 +7,11 @@ is 'secret'.
 1. Install Vagrant
 2. vagrant plugin install vagrant-hostmanager
 3. Download this project.
-4. vagrant box add -f affy-1-5-1 affy-1-5-1.box
-5. Run 'vagrant up'
-6. Run './post_spinup.sh'
-7. Follow the instructions to start Accumulo.
+4. cat xa? > affy-1-5-1.box
+5. vagrant box add -f affy-1-5-1 affy-1-5-1.box
+6. Run 'vagrant up'
+7. Run './post_spinup.sh'
+8. Follow the instructions to start Accumulo.
 
 Now you can visit the following URLs in your browser:
 
